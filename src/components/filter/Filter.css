@@ -1,0 +1,8 @@
+.filter_container{
+    width: 50%;
+    margin: auto;
+}
+select[name='expenses_year']{
+    width: 20%;
+    padding: 5px;
+}

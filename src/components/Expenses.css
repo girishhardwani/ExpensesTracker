@@ -1,0 +1,9 @@
+.Expenses_item{
+    display: grid;
+    grid-template-rows: 1fr auto 2fr;
+}
+.expenses_item_card{
+    background: #555454;
+    width: 50%;
+    margin: auto;
+}

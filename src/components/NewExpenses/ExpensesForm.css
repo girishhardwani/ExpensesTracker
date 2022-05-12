@@ -1,0 +1,52 @@
+.form_container{
+    width: 50%;
+    background-color: mediumpurple;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'title amount'
+    'date .'
+    'button button';
+}
+.title{
+    grid-area: title;
+}
+.amount {
+    grid-area: amount;
+}
+.date{
+    grid-area: date;
+}
+.button{
+    grid-area: button;
+    justify-self: end;
+    margin-right: 15px;
+    align-self: center;
+}
+.form_control{
+    margin: 10px;   
+    padding: 10px 20px; 
+}
+label{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    border: unset;
+}
+.add_expenses_button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid var(--textColor);
+    background-color: var(--purple-color);
+    color: var(--textColor);
+}
+
